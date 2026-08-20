@@ -1,61 +1,60 @@
-#+title: s25-06623 and 06-713
+#+title: f26-06623 
 
 * Canvas site
 :PROPERTIES:
-:URL:      https://canvas.cmu.edu/courses/45085
+:URL:      https://canvas.cmu.edu/courses/56163
 :END:
 
 * GitHUB
 :PROPERTIES:
-:URL:      https://github.com/jkitchin/s25-06623
+:URL:      https://github.com/hgordo/f26-06623
 :END:
 
 * Schedule
 
-** [2025-01-13 Mon]
+** [2026-08-25 Tues]
 
-** [2025-01-15 Wed]
+** [2026-08-27 Thurs]
 
-** [2025-01-20 Mon] NO CLASS - MLK day
+** [2026-09-01 Tues] 
+** [2026-09-03 Thurs]
 
-** [2025-01-22 Wed]
+** [2026-09-08 Tues ]
+** [2026-09-10 Thurs]
 
-** [2025-01-27 Mon]
-** [2025-01-29 Wed]
+** [2026-09-15 Tues ]
+** [2026-09-17 Thurs]
 
-** [2025-02-03 Mon]
-** [2025-02-05 Wed]
+** [2026-09-22 Tues ]
+** [2026-09-24 Thurs]
 
-** [2025-02-10 Mon]
-** [2025-02-12 Wed]
+** [2026-09-29 Tues ]
+** [2026-10-01 Thurs]
 
-** [2025-02-17 Mon]
-** [2025-02-19 Wed]
+** [2026-10-06 Tues ]
+** [2026-10-08 Thurs] Prof Gordon away
 
-** [2025-02-24 Mon]
-** [2025-02-26 Wed]
+** [2026-10-13 Tues ] NO CLASS - FALL BREAK
+** [2026-10-15 Thurs] NO CLASS - FALL BREAK
 
-** [2025-03-03 Mon] NO CLASS - SPRING BREAK
-** [2025-03-05 Wed] NO CLASS - SPRING BREAK
+** [2026-10-20 Tues ]
+** [2026-10-22 Thurs]
 
-** [2025-03-10 Mon]
-** [2025-03-12 Wed]
+** [2026-10-27 Tues ]
+** [2026-10-29 Thurs]
 
-** [2025-03-17 Mon]
-** [2025-03-19 Wed]
+** [2026-11-03 Tues ] 
+** [2026-11-05 Thurs] 
 
-** [2025-03-24 Mon] NO CLASS - ACS
-** [2025-03-26 Wed] NO CLASS - ACS
+** [2026-11-10 Tues ]
+** [2026-11-12 Thurs]
 
-** [2025-03-31 Mon]
-** [2025-04-02 Wed]
+** [2026-11-17 Tues ]
+** [2026-11-19 Thurs]
 
-** [2025-04-07 Mon]
-** [2025-04-09 Wed]
+** [2026-11-24 Tues ] 
+** [2026-11-26 Thurs] No class - Thanksgiving
 
-** [2025-04-14 Mon] NO CLASS - Utah
-** [2025-04-16 Wed] NO CLASS - Utah
-
-** [2025-04-21 Mon]
-** [2025-04-23 Wed]
+** [2026-12-01 Tues ]
+** [2026-12-03 Thurs]
 

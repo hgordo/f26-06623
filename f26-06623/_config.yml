@@ -5,9 +5,9 @@
 
 #######################################################################################
 # Book settings
-title                       : s25-06623  # The title of the book. Will be placed in the left navbar.
-author                      : John Kitchin  # The author of the book
-copyright                   : "2025"  # Copyright year to be placed in the footer
+title                       : f26-06623  # The title of the book. Will be placed in the left navbar.
+author                      : Hamish Gordon, adapted from course by John Kitchin  # The author of the book
+copyright                   : "2026"  # Copyright year to be placed in the footer
 logo                        : lectures/06623-roadmap.png  # A path to the book logo
 
 # Force re-execution of notebooks on each build.
@@ -32,8 +32,8 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/jkitchin/s25-06623  # Online location of your book
-  path_to_book: s25-06623 # Optional path to your book, relative to the repository root
+  url: https://github.com/hgordo/f26-06623  # Online location of your book
+  path_to_book: f26-06623 # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
