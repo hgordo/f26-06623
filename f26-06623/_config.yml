@@ -6,7 +6,7 @@
 #######################################################################################
 # Book settings
 title                       : f26-06623  # The title of the book. Will be placed in the left navbar.
-author                      : Hamish Gordon, adapted from course by John Kitchin  # The author of the book
+author                      : John Kitchin, adapted by Hamish Gordon  # The author of the book
 copyright                   : "2026"  # Copyright year to be placed in the footer
 logo                        : lectures/06623-roadmap.png  # A path to the book logo
 
@@ -53,5 +53,4 @@ parse:
 launch_buttons:
   notebook_interface        : jupyterlab  # The interface interactive links will activate ["classic", "jupyterlab"]
   # Note this requires configuration of the "repository" above to work. 
-  jupyterhub_url            : "https://jh-01.cheme.cmu.edu/"  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)  
   colab_url                 : "https://colab.research.google.com" # The URL of Google Colab (https://colab.research.google.com)
