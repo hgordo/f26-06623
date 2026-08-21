@@ -1,5 +1,5 @@
   [{
-        "question": "Choose all of the following that can be included in Jupyter notebooks?",
+        "question": "Choose all of the following that can be included in Python notebooks?",
         "type": "many_choice",
         "answers": [
             {
