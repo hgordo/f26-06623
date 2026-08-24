@@ -10,51 +10,90 @@
 :URL:      https://github.com/hgordo/f26-06623
 :END:
 
-* Schedule
+* Tentative Schedule: subject to change
 
-** [2026-08-25 Tues]
+** [2026-08-25 Tues] 
+Intro/Colab
 
-** [2026-08-27 Thurs]
+** [2026-08-27 Thurs] 
+Integration
 
 ** [2026-09-01 Tues] 
+Simple 1st order ODEs
+
 ** [2026-09-03 Thurs]
+Advanced 1st order ODEs
 
 ** [2026-09-08 Tues ]
+nth order ODEs (1)
+
 ** [2026-09-10 Thurs]
+nth order ODEs (2) 
 
 ** [2026-09-15 Tues ]
+Root finding and numerical differentiation
+
 ** [2026-09-17 Thurs]
+Root finding for polynomials and coupled systems
 
 ** [2026-09-22 Tues ]
+Recap, Exam 1
+
 ** [2026-09-24 Thurs]
+Boundary value problems (introduction to projects?)
 
 ** [2026-09-29 Tues ]
+Optimization: finding minima and maxima of functions
+
 ** [2026-10-01 Thurs]
+Non-linear Regression: curve fitting
 
 ** [2026-10-06 Tues ]
-** [2026-10-08 Thurs] Prof Gordon away
+Non-linear regression: error estimation
+
+** [2026-10-08 Thurs] Prof Gordon away: Recap, Exam 2
 
 ** [2026-10-13 Tues ] NO CLASS - FALL BREAK
 ** [2026-10-15 Thurs] NO CLASS - FALL BREAK
 
 ** [2026-10-20 Tues ]
+Constrained optimization
+
 ** [2026-10-22 Thurs]
+Linear algebra intro
 
 ** [2026-10-27 Tues ]
+Linear algebra: solutions to simple problems
+
 ** [2026-10-29 Thurs]
+Linear algebra: interpolation and optimization, eigenvectors
 
 ** [2026-11-03 Tues ] 
+Linear regression
+
 ** [2026-11-05 Thurs] 
+Introduction to automatic differentiation with jax
 
 ** [2026-11-10 Tues ]
+Application of automatic differentiation
+
 ** [2026-11-12 Thurs]
+Introduction to machine learning
 
 ** [2026-11-17 Tues ]
+Machine learning: activation functions
+
 ** [2026-11-19 Thurs]
+Gaussian processes
 
 ** [2026-11-24 Tues ] 
+Reserve class in case of unexpected delays, or extended Thanksgiving break
+
 ** [2026-11-26 Thurs] No class - Thanksgiving
 
 ** [2026-12-01 Tues ]
+Project presentations
+
 ** [2026-12-03 Thurs]
+Project presentations
 
