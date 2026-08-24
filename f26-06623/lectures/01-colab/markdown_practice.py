@@ -33,7 +33,7 @@ questions = [
         "answer": ['#3 heading title', '### headingtitle', '*** heading title']
     },
     {
-        'question': 'How do you represent this equation int0xex? in Markdown',
+        'question': 'How do you represent this equation $\int_0^x e^x\,dx$? in Markdown',
         'answer': ['int 0 x e(x)',
                   '¯\_(ツ)_/¯',
                   'int0xex']
