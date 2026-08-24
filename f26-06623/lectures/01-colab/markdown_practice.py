@@ -2,7 +2,7 @@ import os
 import json
 import ipywidgets as widgets
 import functools
-from IPython.display import display
+from IPython.display import Markdown, display
 
 def load_state():
     if os.path.exists("state.json"):
@@ -33,7 +33,7 @@ questions = [
         "answer": ['#3 heading title', '### headingtitle', '*** heading title']
     },
     {
-        'question': r'How do you represent this equation $\int_0^x e^x\,dx$? in Markdown',
+        'question': r'How do you represent the equation $\int_0^x e^x\,dx$ in Markdown?',
         'answer': [r"$\int_0^x e^x\,dx$",
                   r'¯\_(ツ)_/¯',
                   'int0xex']
@@ -64,15 +64,16 @@ for i, q in enumerate(questions):
     if saved_value not in q["answer"]:
         saved_value = None
        
-    pieces = [ widgets.HTMLMath(q['question']),
-                widgets.RadioButtons(options=q['answer'],
-                                    layout={"width": "max-content"},  
-                                    description="Answer:",
-                                    value=saved_value)
-              ]
-    
-    pieces[1].observe(functools.partial(on_value_change, qid=qid), names="value")
-               
-    display(widgets.VBox(pieces))
+    display(Markdown(q["question"]))
+
+    choices = widgets.RadioButtons(
+        options=q["answer"],
+        layout={"width": "max-content"},
+        description="Answer:",
+        value=saved_value,
+    )
+
+    choices.observe(functools.partial(on_value_change, qid=qid), names="value")
+    display(choices)
     
         
