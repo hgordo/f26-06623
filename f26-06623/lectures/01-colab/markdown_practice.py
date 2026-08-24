@@ -34,7 +34,7 @@ questions = [
     },
     {
         'question': 'How do you represent this equation $\int_0^x e^x\,dx$? in Markdown',
-        'answer': ['int 0 x e(x)',
+        'answer': [r"$\int_0^x e^x\,dx$",
                   '¯\_(ツ)_/¯',
                   'int0xex']
     },
