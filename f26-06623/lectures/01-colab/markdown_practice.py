@@ -33,9 +33,9 @@ questions = [
         "answer": ['#3 heading title', '### headingtitle', '*** heading title']
     },
     {
-        'question': 'How do you represent this equation $\int_0^x e^x\,dx$? in Markdown',
+        'question': r'How do you represent this equation $\int_0^x e^x\,dx$? in Markdown',
         'answer': [r"$\int_0^x e^x\,dx$",
-                  '¯\_(ツ)_/¯',
+                  r'¯\_(ツ)_/¯',
                   'int0xex']
     },
     {
@@ -56,17 +56,23 @@ def on_value_change(change, qid):
         print(state)
 
 for i, q in enumerate(questions):
+    qid = str(i)
+    saved_value = state.get(qid)
+
+    # An answer saved by an older version of the quiz may no longer be an
+    # available option. In that case, show the question as unanswered.
+    if saved_value not in q["answer"]:
+        saved_value = None
        
     pieces = [ widgets.HTMLMath(q['question']),
                 widgets.RadioButtons(options=q['answer'],
                                     layout={"width": "max-content"},  
                                     description="Answer:",
-                                    value=state.get(str(i), None))
+                                    value=saved_value)
               ]
     
-    pieces[1].observe(functools.partial(on_value_change, qid=i), names="value")
+    pieces[1].observe(functools.partial(on_value_change, qid=qid), names="value")
                
     display(widgets.VBox(pieces))
     
         
-
