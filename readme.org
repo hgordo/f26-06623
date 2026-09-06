@@ -28,7 +28,7 @@ Advanced 1st order ODEs
 nth order ODEs (1)
 
 ** [2026-09-10 Thurs]
-nth order ODEs (2) 
+nth order ODEs; PDEs (2) 
 
 ** [2026-09-15 Tues ]
 Root finding and numerical differentiation
