@@ -13,6 +13,7 @@ parts:
     - file: lectures/03-fode-1/03-fode-1.ipynb
     - file: lectures/04-fode-2/04-fode-2.ipynb
     - file: lectures/05-nth-odes/05-nth-odes.ipynb
+    - file: lectures/06-pdes/06-pdes.ipynb
     - file: lectures/07-nla-1/07-nla-1.ipynb
     - file: lectures/08-nla-2/08-nla-2.ipynb
     - file: lectures/09-bvp/09-bvp.ipynb
