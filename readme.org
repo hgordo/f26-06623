@@ -49,9 +49,10 @@ Optimization: finding minima and maxima of functions
 Non-linear Regression: curve fitting
 
 ** [2026-10-06 Tues ]
-Non-linear regression: error estimation
+Prof Gordon away: Recap, Exam 2
 
-** [2026-10-08 Thurs] Prof Gordon away: Recap, Exam 2
+** [2026-10-08 Thurs] 
+Non-linear regression: error estimation
 
 ** [2026-10-13 Tues ] NO CLASS - FALL BREAK
 ** [2026-10-15 Thurs] NO CLASS - FALL BREAK
