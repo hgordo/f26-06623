@@ -1,6 +1,6 @@
 [
   {
-    "question": "What will be the input to np.roots() to find the roots of the equation:<br>$5x^4 - 10x^2 + 20x - 50 = 0$",
+    "question": "Which coefficient list constructs $5x^4 - 10x^2 + 20x - 50$ with Polynomial?",
     "type": "multiple_choice",
     "answers": [
       {
@@ -8,15 +8,15 @@
         "correct": false
       },
       {
-        "answer": "[1, -2, 4, 10]",
+        "answer": "[-50, 20, -10, 5]",
         "correct": false
       },
       {
-        "answer": "[5, -10, 20, -50, 0]",
+        "answer": "[-50, 20, -10, 5, 0]",
         "correct": false
       },
       {
-        "answer": "[5, 0, -10, 20, -50]",
+        "answer": "[-50, 20, -10, 0, 5]",
         "correct": true
       }
     ],
@@ -24,7 +24,7 @@
     "lecture_file": "08_nla_2"
   },
   {
-    "question": "p = [1, -5, 6]<br>x = np.linspace(0, 10, 20)<br>y = np.polyval(p, x)<br>y.shape = ?",
+    "question": "p = Polynomial([6, -5, 1])<br>x = np.linspace(0, 10, 20)<br>y = p(x)<br>y.shape = ?",
     "type": "multiple_choice",
     "answers": [
       {
@@ -48,23 +48,23 @@
     "lecture_file": "08_nla_2"
   },
   {
-    "question": "What will be the output of:<br>np.polyder([5, 0, 3, 5])",
+    "question": "What is Polynomial([5, 0, 3, 5]).deriv().coef?",
     "type": "multiple_choice",
     "answers": [
       {
-        "answer": "np.array([15, 2, 3])",
+        "answer": "np.array([15, 6, 0])",
         "correct": false
       },
       {
-        "answer": "np.array([15, 3])",
+        "answer": "np.array([6, 15])",
         "correct": false
       },
       {
-        "answer": "np.array([15, 3, 0])",
+        "answer": "np.array([0, 15, 6])",
         "correct": false
       },
       {
-        "answer": "np.array([15, 0, 3])",
+        "answer": "np.array([0, 6, 15])",
         "correct": true
       }
     ],
@@ -72,19 +72,19 @@
     "lecture_file": "08_nla_2"
   },
   {
-    "question": "What will be the output of:<br>p = [1]<br>pint = np.polyint(p, 2, [1, 4])<br>print(pint)",
+    "question": "What is Polynomial([1]).integ(2, k=[1, 4]).coef?",
     "type": "multiple_choice",
     "answers": [
       {
-        "answer": "[1.0, 1.0]",
+        "answer": "[1.0, 4.0]",
         "correct": false
       },
       {
-        "answer": "[0.5, 1.0, 4.0]",
+        "answer": "[4.0, 1.0, 0.5]",
         "correct": true
       },
       {
-        "answer": "[0.167, 1.0, 4.0]",
+        "answer": "[1.0, 4.0, 0.5]",
         "correct": false
       },
       {
@@ -96,11 +96,11 @@
     "lecture_file": "08_nla_2"
   },
   {
-    "question": "If 'p = np.poly1d([1, -5, 6])'<br>then 'print(p.r)' will output",
+    "question": "If p = Polynomial([6, -5, 1]), what does p.roots() return?",
     "type": "multiple_choice",
     "answers": [
       {
-        "answer": "[3, 2]",
+        "answer": "[2, 3]",
         "correct": true
       },
       {
