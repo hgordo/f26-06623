@@ -70,25 +70,25 @@ Linear algebra: solutions to simple problems
 Linear algebra: interpolation and optimization, eigenvectors
 
 ** [2026-11-03 Tues ] 
-Linear regression
+Democracy Day- no class 
 
 ** [2026-11-05 Thurs] 
-Introduction to automatic differentiation with jax
+Linear regression
 
 ** [2026-11-10 Tues ]
-Application of automatic differentiation
+Introduction to automatic differentiation with jax
 
 ** [2026-11-12 Thurs]
-Introduction to machine learning
+Application of automatic differentiation
 
 ** [2026-11-17 Tues ]
-Machine learning: activation functions
+Introduction to machine learning
 
 ** [2026-11-19 Thurs]
-Gaussian processes
+Machine learning: activation functions
 
 ** [2026-11-24 Tues ] 
-Reserve class in case of unexpected delays, or extended Thanksgiving break
+Gaussian processes
 
 ** [2026-11-26 Thurs] No class - Thanksgiving
 
