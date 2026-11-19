@@ -76,19 +76,19 @@ Democracy Day- no class
 Linear regression, intro to automatic differentiation
 
 ** [2026-11-10 Tues ]
-Introduction to automatic differentiation with jax
+Introduction and applications of automatic differentiation with jax
 
 ** [2026-11-12 Thurs]
-Application of automatic differentiation
-
-** [2026-11-17 Tues ]
 Introduction to machine learning
 
-** [2026-11-19 Thurs]
+** [2026-11-17 Tues ]
 Machine learning: activation functions
 
+** [2026-11-19 Thurs]
+Gaussian processes
+
 ** [2026-11-24 Tues ] 
-Gaussian processes --- or review/cancel?
+GPs, Review
 
 ** [2026-11-26 Thurs] No class - Thanksgiving
 
